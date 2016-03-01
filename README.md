@@ -15,6 +15,16 @@ work on OSX.
 pydtrace should work on any Unix/BSD with dtrace and OSX 10.5+. If it does not, let me know.
 
 
+Building
+---
+- git clone https://github.com/fscz/pydtrace.git
+- cd pydtrace
+- make
+
+This will build an so-file dtrace.so that you can directly import in a python script, using "import dtrace"
+ 
+
+
 API
 ---
 
